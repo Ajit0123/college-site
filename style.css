@@ -186,7 +186,9 @@
     font-size: 20px;
     font-weight: bold;
 }
-
+.navbar{
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.18);
+}
 
 
 @media  (max-width: 700px) {
@@ -213,6 +215,7 @@
         width: auto;
         height: auto;
     }
+    
 }
 
 .ntboard{
@@ -282,7 +285,7 @@
 }
 .navbar-brand{
     font-family: 'Sansita Swashed', cursive;
-    font-size: 30px !important;
+    font-size: 23px !important;
     font-weight: bold;
 }
 .nav-item > .dropdown:hover .dropdown-menu{
@@ -491,4 +494,25 @@ text-decoration: none;
 }
 #contact-form{
     margin-bottom: 50px;
+}
+@media (max-width:600px) {
+    .table,thead,tbody{
+               font-size: 15px;
+               }
+    .sy-head{
+        font-size: 16px;
+        margin: 0px;
+        
+        height: 34px;
+    } 
+    .ct-socials{
+        padding-left:0px;
+        right: 2px !important;
+    }  
+    .navbar-brand img{
+               width: 100%;
+    } 
+    .navbar-brand{
+        width: 70%;
+    }       
 }
